@@ -22,7 +22,7 @@ max_retry_before_abort = 10
 #good idea to limit this, as you will be making infinite requests if your instructions is buggy. Generally its good to limit this to 1 per 20 entries.
 #++++++++END OF CONFIGS+++++++
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI()
 
 load_dotenv()
 
