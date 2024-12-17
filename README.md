@@ -25,7 +25,7 @@ Example:
 # Setup:
 
 ```bash
-git clone https://github.com/DominicTWHV/Alpaca-Dataset-Generator.git
+git clone https://github.com/DominicTWHV/Alpaca_Dataset_Generator.git
 cd Alpaca-Dataset-Generator
 apt install python3 python3-venv python3-pip -y
 python3 -m venv venv
