@@ -35,7 +35,9 @@ mv example.env .env
 ```
 
 Then, go into `.env` and insert your API token.
+
 Example:
+
 ```bash
 nano .env
 ```
@@ -43,11 +45,13 @@ nano .env
 ---
 
 Configure your settings via:
+
 ```bash
 nano main.py
 ```
 
 Configure the system prompt by going into the `instruction.txt` file and editing the contents. 
+
 **Warning: the code uses a specific regex pattern matching, whats provided generally works well for basic generic dataset generation, so unless you know what you are doing, do NOT edit that file, otherwise, when combined with `permit_fail_retry`, you can very much exceed your API limits with no actual usable returns.**
 
 ```bash
