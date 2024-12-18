@@ -24,15 +24,29 @@ Example:
 
 # Setup:
 
+**For Linux:**
+
 ```bash
 git clone https://github.com/DominicTWHV/Alpaca_Dataset_Generator.git
-cd Alpaca-Dataset-Generator
+cd Alpaca_Dataset_Generator
 apt install python3 python3-venv python3-pip -y
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 mv example.env .env
 ```
+
+**For Windows:**
+
+```shell
+git clone https://github.com/DominicTWHV/Alpaca_Dataset_Generator.git
+cd Alpaca_Dataset_Generator
+python -m venv venv
+venv/Scripts/activate
+pip install -r requirements.txt
+```
+
+---
 
 Then, go into `.env` and insert your API token.
 
